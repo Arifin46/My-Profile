@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Ahasan Arefin</title>
+  <meta name="description" content="Contact Ahasan Arefin at Daffodil International University." />
+
+  <!-- Favicon (inline SVG data URI — no extra file needed) -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1120'/%3E%3Ctext x='32' y='43' font-family='Helvetica,Arial,sans-serif' font-size='28' font-weight='bold' fill='%2338bdf8' text-anchor='middle'%3EAA%3C/text%3E%3C/svg%3E" />
+
+  <link rel="canonical" href="https://USERNAME.github.io/Arefin/contact.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact — Ahasan Arefin" />
+  <meta property="og:description" content="Get in touch by email: 252-15-191@diu.edu.bd" />
+
+  <!-- GitHub Pages base path. The site is served from /Arefin/, not /, so
+       relative links resolve against the repository sub-path. -->
+  <script>
+    (function () {
+      var seg = location.pathname.split("/").filter(Boolean)[0];
+      var base = (seg === "Arefin") ? "/Arefin/" : "./";
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">AA</span>
+        <span>Ahasan Arefin</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" id="themeToggle" type="button" title="Switch theme"
+          aria-label="Switch theme">☀️</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <div class="page-head">
+        <span class="eyebrow">Contact</span>
+        <h1>Let's talk.</h1>
+        <p>
+          Whether it is an internship, a freelance project or a question about one of my
+          repositories, my inbox is always open.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- ===================== Contact details ===================== -->
+        <aside class="card">
+          <h3 style="margin-bottom:6px">Contact details</h3>
+          <p style="margin-bottom:10px">The fastest way to reach me is email.</p>
+
+          <div class="info-row">
+            <span class="ic">✉</span>
+            <div>
+              <div class="k">Email</div>
+              <div class="v"><a href="mailto:252-15-191@diu.edu.bd">252-15-191@diu.edu.bd</a></div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="ic">🎓</span>
+            <div>
+              <div class="k">University</div>
+              <div class="v">Daffodil International University</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="ic">🆔</span>
+            <div>
+              <div class="k">Student ID</div>
+              <div class="v">252-15-929</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="ic">📘</span>
+            <div>
+              <div class="k">Program</div>
+              <div class="v">B.Sc. in CSE · 5th Semester</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="ic">📍</span>
+            <div>
+              <div class="k">Location</div>
+              <div class="v">Dhaka, Bangladesh</div>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="ic">⏰</span>
+            <div>
+              <div class="k">Response time</div>
+              <div class="v">Usually within 24 hours</div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- ===================== Contact form ===================== -->
+        <section class="card">
+          <h3 style="margin-bottom:6px">Send me a message</h3>
+          <p style="margin-bottom:16px">Fill in the form and I'll get back to you.</p>
+
+          <!--
+            Static contact form — handled entirely in the browser by Formspree.
+
+            >>> REPLACE THE PLACEHOLDER BELOW <<<
+            ####################################################################
+            #  action=\"https://formspree.io/f/YOUR_FORM_ID\"                        #
+            ####################################################################
+            Create a free account at https://formspree.io, add a new form and
+            copy its endpoint, which looks like:
+                https://formspree.io/f/xxxxxxxx
+            Replace YOUR_FORM_ID with the id Formspree gives you.
+
+            Until you do, the form falls back to opening the visitor's email
+            app so no message is ever lost.
+          -->
+          <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
+            data-fallback-mailto="252-15-191@diu.edu.bd" novalidate>
+            <!-- Formspree settings: the email subject and the reply-to address.
+                 No secret is stored here — a Formspree endpoint is public by design. -->
+            <input type="hidden" name="_subject" value="New portfolio message from your website" />
+            <input type="hidden" name="_replyto" value="email" />
+            <!-- Simple honeypot: bots fill this in, humans never see it. -->
+            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px"
+              aria-hidden="true" />
+
+            <div>
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Rakib Hasan" required />
+            </div>
+            <div>
+              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div>
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Internship opportunity" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me a little about what you have in mind…"
+                required></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send message →</button>
+            <!-- Inline feedback for success / error states (filled in by js/main.js) -->
+            <p id="formStatus" class="note" role="status" aria-live="polite"></p>
+
+            <p class="note">
+              Messages are delivered by <strong>Formspree</strong>, a free service for
+              static sites — no backend required. Your email address is never exposed
+              in the page source.
+            </p>
+          </form>
+        </section>
+
+      </div>
+
+      <section class="section">
+        <h2>Elsewhere</h2>
+        <p class="sub">Replace these with your real profile links.</p>
+        <div class="grid grid-3">
+          <article class="card">
+            <div class="icon">💻</div>
+            <h3>GitHub</h3>
+            <p>Projects and practice repositories.</p>
+            <div class="tags"><a class="tag" href="https://github.com/your-username" target="_blank"
+                rel="noopener noreferrer">github.com/your-username</a></div>
+          </article>
+          <article class="card">
+            <div class="icon">🔗</div>
+            <h3>LinkedIn</h3>
+            <p>My academic and professional profile.</p>
+            <div class="tags"><a class="tag" href="https://linkedin.com/in/your-profile" target="_blank"
+                rel="noopener noreferrer">linkedin.com/in/your-profile</a></div>
+          </article>
+          <article class="card">
+            <div class="icon">📄</div>
+            <h3>Resume</h3>
+            <p>Download the one-page PDF version.</p>
+            <div class="tags"><a class="tag" href="resume.pdf" download>resume.pdf</a></div>
+          </article>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> Ahasan Arefin · Built with HTML, CSS &amp; JavaScript</span>
+      <span class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

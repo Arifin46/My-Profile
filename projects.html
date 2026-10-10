@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Ahasan Arefin</title>
+  <meta name="description" content="Laravel, PHP and JavaScript projects built by Ahasan Arefin." />
+
+  <!-- Favicon (inline SVG data URI — no extra file needed) -->
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1120'/%3E%3Ctext x='32' y='43' font-family='Helvetica,Arial,sans-serif' font-size='28' font-weight='bold' fill='%2338bdf8' text-anchor='middle'%3EAA%3C/text%3E%3C/svg%3E" />
+
+  <link rel="canonical" href="https://USERNAME.github.io/Arefin/projects.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects — Ahasan Arefin" />
+  <meta property="og:description" content="Student management system, mini e-commerce store and other builds." />
+
+  <!-- GitHub Pages base path. The site is served from /Arefin/, not /, so
+       relative links resolve against the repository sub-path. -->
+  <script>
+    (function () {
+      var seg = location.pathname.split("/").filter(Boolean)[0];
+      var base = (seg === "Arefin") ? "/Arefin/" : "./";
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">AA</span>
+        <span>Ahasan Arefin</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-tools">
+        <button class="icon-btn" id="themeToggle" type="button" title="Switch theme"
+          aria-label="Switch theme">☀️</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <div class="page-head">
+        <span class="eyebrow">Projects</span>
+        <h1>Things I have built.</h1>
+        <p>
+          Mostly Laravel applications from my web technology coursework, plus a few
+          practice builds in Python and JavaScript. Replace the links below with your own
+          GitHub repositories as you publish them.
+        </p>
+      </div>
+
+      <section class="section">
+        <h2>Featured projects</h2>
+        <div class="grid grid-2">
+
+          <article class="card project">
+            <div class="thumb">🎓</div>
+            <h3>Student Management System</h3>
+            <p>A Laravel application to manage students, courses and results. Includes authentication, CRUD for every
+              entity, Eloquent relationships and a searchable student list.</p>
+            <div class="tags">
+              <span class="tag">Laravel</span><span class="tag">Blade</span><span class="tag">MySQL</span><span
+                class="tag">Bootstrap</span>
+            </div>
+            <div class="foot">
+              <a class="btn btn-ghost" href="#">Source code</a>
+              <a class="btn btn-ghost" href="#">Case study</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="thumb">🛒</div>
+            <h3>Mini E-Commerce Store</h3>
+            <p>Product catalogue, shopping cart stored in the session, checkout form and an admin dashboard for adding
+              products.</p>
+            <div class="tags">
+              <span class="tag">Laravel</span><span class="tag">Eloquent</span><span class="tag">Sessions</span><span
+                class="tag">CSS Grid</span>
+            </div>
+            <div class="foot">
+              <a class="btn btn-ghost" href="#">Source code</a>
+              <a class="btn btn-ghost" href="#">Case study</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="thumb">✅</div>
+            <h3>Task Manager</h3>
+            <p>A JavaScript to-do application with local storage persistence, drag-free filtering by status and
+              keyboard-friendly controls. Built before learning any framework.</p>
+            <div class="tags">
+              <span class="tag">JavaScript</span><span class="tag">LocalStorage</span><span class="tag">CSS</span>
+            </div>
+            <div class="foot">
+              <a class="btn btn-ghost" href="#">Source code</a>
+              <a class="btn btn-ghost" href="#">Live demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="thumb">🌦️</div>
+            <h3>Weather CLI</h3>
+            <p>A Python command-line tool that fetches a public weather API, parses JSON and prints a clean forecast
+              summary with error handling.</p>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">requests</span><span class="tag">JSON</span>
+            </div>
+            <div class="foot">
+              <a class="btn btn-ghost" href="#">Source code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="thumb">📚</div>
+            <h3>Library Management System</h3>
+            <p>A Java console application applying OOP principles — inheritance for media types, collections for the
+              catalogue and exception handling for borrowing rules.</p>
+            <div class="tags">
+              <span class="tag">Java</span><span class="tag">OOP</span><span class="tag">Collections</span>
+            </div>
+            <div class="foot">
+              <a class="btn btn-ghost" href="#">Source code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="thumb">🧮</div>
+            <h3>Data Structure Visualiser</h3>
+            <p>A study aid that animates stack, queue and linked-list operations, written in C++ with a simple text
+              interface for revision.</p>
+            <div class="tags">
+              <span class="tag">C++</span><span class="tag">STL</span><span class="tag">Algorithms</span>
+            </div>
+            <div class="foot">
+              <a class="btn btn-ghost" href="#">Source code</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>This portfolio site</h2>
+        <p class="sub">The application you are looking at right now.</p>
+        <div class="card">
+          <p>
+            Built as a Laravel-style PHP application: a front controller handles every
+            request, controllers pass data to Blade templates, views stay free of business
+            logic and a single stylesheet plus a small JavaScript file power the whole UI.
+          </p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            <span class="tag">PHP</span><span class="tag">Laravel</span><span class="tag">Routing</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card" style="display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between">
+          <div>
+            <h3>Interested in working together?</h3>
+            <p>I'd be glad to hear about internships or student projects.</p>
+          </div>
+          <a class="btn btn-primary" href="contact.html">Contact me →</a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> Ahasan Arefin · Built with HTML, CSS &amp; JavaScript</span>
+      <span class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="mailto:252-15-191@diu.edu.bd">252-15-191@diu.edu.bd</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
